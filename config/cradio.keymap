@@ -19,6 +19,15 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Layer_3 {
+            bindings = <&to 3>;
+            key-positions = <0 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -49,12 +58,12 @@
             >;
         };
 
-        layer_4 {
+        Gaming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp TAB    &kp Q  &kp W  &kp E  &kp R        &trans  &trans  &trans  &trans  &to 0
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &trans  &trans  &trans  &trans  &trans
+                         &kp G  &kp SPACE    &trans  &trans
             >;
         };
     };
