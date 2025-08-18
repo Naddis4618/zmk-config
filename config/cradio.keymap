@@ -60,10 +60,10 @@
 
         Gaming {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R        &none  &none  &none  &none  &to 0
-&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &none  &none  &none  &none  &none
-&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none  &none  &none  &none  &none
-                         &kp G  &kp SPACE    &none  &none
+&kp TAB    &kp Q  &kp W  &kp E  &kp R        &kp ESC   &none  &none  &none  &to 0
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &kp CAPS  &none  &none  &none  &none
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none     &none  &none  &none  &none
+                         &kp G  &kp SPACE    &none     &none
             >;
         };
     };
