@@ -33,10 +33,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W        &kp E  &kp R      &kp T         &kp Y      &kp U      &kp I      &kp O                &kp P
-&ht LEFT_SHIFT A  &ht LCTRL S  &kp D  &kp F      &ht LGUI G    &kp H      &kp J      &kp K      &ht RIGHT_CONTROL L  &ht RIGHT_SHIFT SQT
-&kp Z             &kp X        &kp C  &kp V      &kp B         &kp N      &kp M      &kp COMMA  &kp DOT              &kp FSLH
-                                      &lt 2 TAB  &kp ENTER     &kp SPACE  &lt 1 DEL
+&kp Q             &kp W        &kp E  &kp R      &kp T         &kp Y      &kp U            &kp I      &kp O                &kp P
+&ht LEFT_SHIFT A  &ht LCTRL S  &kp D  &kp F      &ht LGUI G    &kp H      &kp J            &kp K      &ht RIGHT_CONTROL L  &ht RIGHT_SHIFT SQT
+&kp Z             &kp X        &kp C  &kp V      &kp B         &kp N      &kp M            &kp COMMA  &kp DOT              &kp FSLH
+                                      &lt 2 TAB  &kp ENTER     &kp SPACE  &lt 1 BACKSPACE
             >;
         };
 
@@ -60,10 +60,10 @@
 
         Gaming {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R        &trans  &trans  &trans  &trans  &to 0
-&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &trans  &trans  &trans  &trans  &trans
-                         &kp G  &kp SPACE    &trans  &trans
+&kp TAB    &kp Q  &kp W  &kp E  &kp R        &none  &none  &none  &none  &to 0
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &none  &none  &none  &none  &none
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none  &none  &none  &none  &none
+                         &kp G  &kp SPACE    &none  &none
             >;
         };
     };
