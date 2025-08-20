@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -60,9 +61,9 @@
 
         Gaming {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R        &kp ESC   &none  &none  &none  &to 0
-&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &kp CAPS  &none  &none  &none  &none
-&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none     &none  &none  &none  &none
+&kp TAB    &kp Q  &kp W  &kp E  &kp R        &kp ESC   &none  &none         &none         &to 0
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F        &kp CAPS  &none  &none         &none         &bt BT_CLR
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none     &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
                          &kp G  &kp SPACE    &none     &none
             >;
         };
